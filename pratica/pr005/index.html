@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Teste de imagem</h1>
+    <picture>
+        <source media="(max-width:350px)" srcset="imagens/3-p.jpg" type="image/jpg">
+        <source media="(max-width:750px)" srcset="imagens/3-m.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/3-g.jpg" type="image/jpg">
+        <img src="imagens/3.jpg" alt="Imagem flexivel">
+    </picture>
+</body>
+</html>
