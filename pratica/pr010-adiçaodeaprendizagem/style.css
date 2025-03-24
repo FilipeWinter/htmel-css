@@ -17,7 +17,7 @@ body{
     width: auto;
     height: auto;
 
-    margin: 10px auto;
+    margin: auto;
 
     border: 10px solid #00000000;
 
@@ -26,7 +26,6 @@ body{
 header{
     min-height: 300px;
     max-width: 1000px;
-    margin: auto;
     background-color: #7099b336 ;
     border-radius: 10px;
 
@@ -35,15 +34,12 @@ header{
     height: 300px;
     border: 10px solid #00000000;
     padding: 8px;
-    margin: 5px auto;
+    margin: 5px ;
 }
-header > h1{
-    color: ;
-}
+header > p{ color: black;}
 main{
     min-height: 300px;
     max-width: 1000px;
-    margin: auto;
     background-color: #7099b336 ;
     border-radius: 10px;
 
@@ -51,7 +47,7 @@ main{
     width: 1150px;
     height: 553px;
 
-    margin: 10px auto;
+    margin: 10px ;
 
     border: 10px solid #00000000;
 
@@ -62,7 +58,6 @@ footer{
     max-width: 1000px;
     margin: auto;
     height: auto;
-    background-image: linear-gradient( to top,#2d76a3);
     background-color: #7099b336 ;
     border-radius: 10px;
 
