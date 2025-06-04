@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Prática do exercicio 22</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: white;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Imagens - Red Dead Redemption 2</h1>
+    <div class="gallery">
+        <img src="imagem1.jpg" alt="Cena do jogo">
+        <img src="imagem2.jpg" alt="Paisagem do jogo">
+        <img src="imagem3.jpg" alt="Personagem em ação">
+        <img src="imagem4.jpg" alt="Cidade no jogo">
+        <img src="imagem5.jpg" alt="Cavalgando ao pôr do sol">
+    </div>
+</body>
+</body>
+</html>
