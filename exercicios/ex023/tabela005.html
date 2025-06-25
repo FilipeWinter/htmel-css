@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 620px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: aliceblue;
+        }
+        col.cgrupo{
+            background-color: aquamarine;
+        }
+        .cyan{
+            background-color:cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="cgrupo">
+            <col class="cyan">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td scope="col">Ana maria</td>
+            <td scope="col">F</td>
+            <td scope="col">25</td>
+            <td scope="col">Jornalista</td>
+        </tr>
+        <tr>
+            <td scope="col">Ana maria</td>
+            <td scope="col">M</td>
+            <td scope="col">28</td>
+            <td scope="col">Programador</td>
+        </tr>
+        <tr>
+            <td scope="col">Gustavo</td>
+            <td scope="col">M</td>
+            <td scope="col">42</td>
+            <td scope="col">Professor</td>
+        </tr>
+        <tr>
+            <td scope="col">Hélio</td>
+            <td scope="col">M</td>
+            <td scope="col">19</td>
+            <td scope="col">Vendedor</td>
+        </tr>
+        <tr>
+            <td scope="col">Maria</td>
+            <td scope="col">F</td>
+            <td scope="col">39</td>
+            <td scope="col">Médica</td>
+        </tr>
+        <tr>
+            <td scope="col">Otávio</td>
+            <td scope="col">M</td>
+            <td scope="col">22</td>
+            <td scope="col">Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
